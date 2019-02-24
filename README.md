@@ -1,5 +1,5 @@
 # json2relational-analytics
-The goal of this repo is to quickly setup a ETL process for the orders data in json format and to enable data analysts to start querying the data loaded into relational tables.
+The goal of this repo is to quickly setup a ETL process for the orders data in json format and to enable data analysts to start querying the data loaded into relational tables. Visit [data_migration](https://github.com/Samariya57/coding_challenges/blob/master/data_migration.md) for additional details on the problem statement. 
 
 # Approach
 Each file to be processed has orders data in nested json format. [process_json_files.py](src/process_json_files.py) performs the following steps to process json data files and to load the processed files into postgres database.
