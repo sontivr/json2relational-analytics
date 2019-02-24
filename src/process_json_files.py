@@ -57,7 +57,7 @@ class ProcessJsonFiles(object):
 
     def process_file(self, inputfile):
         """
-
+        Creates csv files from json inputfile
         :param inputfile: json file to be processed
         :return:
         """
